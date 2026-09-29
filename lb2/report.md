@@ -52,6 +52,7 @@
 Після введення `standard_user` і правильного пароля та натискання `Login` користувач успішно авторизується і переходить на сторінку Products.
 
 **Actual Result:**  
+<img width="2048" height="941" alt="image" src="https://github.com/user-attachments/assets/d97aea15-c683-4370-bf70-ee1a9d62344c" />
 Після введення `standard_user` і правильного пароля та натискання `Login` відкрилася сторінка Products.
 
 **Result:** Pass
@@ -82,6 +83,7 @@
 Після введення `standard_user` і неправильного пароля `wrong_password` та натискання `Login` авторизація відхиляється і відображається повідомлення `Epic sadface: Username and password do not match any user in this service`.
 
 **Actual Result:**  
+<img width="1470" height="589" alt="image" src="https://github.com/user-attachments/assets/cf56004c-14e4-4b1b-96ae-9fb7e10dfbf1" />
 Після введення `standard_user` і неправильного пароля `wrong_password` та натискання `Login` авторизацію відхилено і відображено повідомлення `Epic sadface: Username and password do not match any user in this service`.
 
 **Result:** Pass
@@ -112,6 +114,7 @@
 Після введення `locked_out_user` і правильного пароля та натискання `Login` авторизація відхиляється і відображається повідомлення `Epic sadface: Sorry, this user has been locked out`.
 
 **Actual Result:**  
+<img width="1288" height="586" alt="image" src="https://github.com/user-attachments/assets/9c22624e-4763-4250-84b9-85672972dea4" />
 Після введення `locked_out_user` і правильного пароля та натискання `Login` авторизацію відхилено і відображено повідомлення `Epic sadface: Sorry, this user has been locked out`.
 
 **Result:** Pass
